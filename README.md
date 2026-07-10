@@ -1,5 +1,7 @@
 # Second Brain, template
 
+> Questo template accompagna l'articolo [Come uso l'AI come second brain](https://builderslog.substack.com/p/come-uso-lai-come-second-brain).
+
 Un second brain personale in stile "wiki LLM" (à la Karpathy) in markdown Obsidian. Testo semplice, così un LLM può leggerlo, ragionarci sopra e **mantenerlo attivamente**. Tu catturi le fonti grezze; un agente (Claude Code) le distilla in pagine wiki collegate che compongono nel tempo.
 
 Questo è un **template di partenza**. Include:
@@ -91,4 +93,4 @@ Versione completa in [CLAUDE.md](CLAUDE.md).
 
 ---
 
-*Questo template accompagna l'articolo [Come uso l'AI come second brain](https://builderslog.substack.com/p/come-uso-lai-come-second-brain). Il concetto si basa sull'[approccio wiki-LLM di Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).*
+*Il concetto si basa sull'[approccio wiki-LLM di Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).*

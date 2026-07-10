@@ -10,31 +10,31 @@ tags: [knowledge-management]
 
 # Hook
 
-Knowledge compounds when you connect it, not when you store it. Most note-taking optimises the wrong half.
+La conoscenza compone quando la colleghi, non quando la archivi. Gran parte del note-taking ottimizza la metà sbagliata.
 
-# Why this is a post (Rule of 3 trigger)
+# Perché è un post (trigger Rule of 3)
 
-- [[Inbox/_processed/the-wiki-llm-approach-karpathy]] — *"the wiki is the codebase"; value is in the links the agent maintains*
-- [[Thinking in Systems - Donella Meadows]] — *"a system is the parts and their interconnections"*
-- [[Journal/2026-01-15]] — *conversation with Maya Chen about capture-vs-reuse gap*
+- [[Inbox/_processed/the-wiki-llm-approach-karpathy]] — *"the wiki is the codebase"; il valore è nei link che l'agente mantiene*
+- [[Thinking in Systems - Donella Meadows]] — *"un sistema è le parti e le loro interconnessioni"*
+- [[Journal/2026-01-15]] — *conversazione con Trinity sul divario cattura-vs-riuso*
 
-# Angle candidate
+# Angle candidato
 
-Everyone talks about capturing more. The leverage is in connecting: a note you never link to might as well not exist. Frame it around systems thinking (links > nodes) and the LLM-maintained wiki as the mechanism that finally makes connecting cheap.
+Tutti parlano di catturare di più. La leva è nel collegare: una nota che non colleghi mai è come se non esistesse. Impostarlo sul systems thinking (i link contano più dei nodi) e sul wiki mantenuto da LLM come il meccanismo che finalmente rende il collegare a costo quasi zero.
 
-# Fit with your positioning
+# Coerenza col posizionamento
 
-- [ ] Idea fits my positioning (to-validate — depends on the outcome of [[should-i-start-a-newsletter]])
+- [ ] L'idea è coerente col mio posizionamento (da validare, dipende dall'esito di [[should-i-start-a-newsletter]])
 
-# Related pages
+# Pagine correlate
 
 - [[knowledge-management]]
 - [[should-i-start-a-newsletter]]
 
-# Open questions / before writing
+# Domande aperte / prima di scrivere
 
-- [ ] Clear editorial stance (capture-more is the status quo I push against)?
-- [ ] A tangible asset attached (link this vault template)?
+- [ ] Posizione editoriale chiara (lo status quo "catturare di più" è ciò contro cui spingo)?
+- [ ] Un asset tangibile collegato (link a questo template di vault)?
 
 # Sources
 

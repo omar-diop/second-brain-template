@@ -33,7 +33,7 @@ WHERE type = "post-idea" AND status = "drafting"
 
 Manual list — kept in sync on every `/ingest` (fallback if Dataview is off).
 
-<!-- Fictional example page. Delete it once you start adding your own. -->
+<!-- Pagina d'esempio (fittizia). Cancellala quando cominci ad aggiungere le tue. -->
 
 ### Idea
-- [[compounding-knowledge]] — *"knowledge compounds when you connect it, not when you store it"*. Trigger: [[The wiki-LLM approach - Andrej Karpathy]] + [[Thinking in Systems - Donella Meadows]] + [[Journal/2026-01-15]]. trigger_count 3.
+- [[compounding-knowledge]] — *"la conoscenza compone quando la colleghi, non quando la archivi"*. Trigger: [[The wiki-LLM approach - Andrej Karpathy]] + [[Thinking in Systems - Donella Meadows]] + [[Journal/2026-01-15]]. trigger_count 3.

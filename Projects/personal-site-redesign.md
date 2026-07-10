@@ -7,29 +7,29 @@ deadline: 2026-03-31
 tags: [web, personal]
 ---
 
-# Outcome & success criteria
+# Esito e criteri di successo
 
-Ship a redesigned personal site by end of quarter. Success = live, fast, and with a clear place to point people (about + writing).
+Mettere online un sito personale rifatto entro fine trimestre. Successo = online, veloce, con un posto chiaro dove mandare le persone (about + scritti).
 
-# People involved
+# Persone coinvolte
 
-- (solo for now)
+- (per ora da solo)
 
-# References
+# Riferimenti
 
-- [[knowledge-management]] — the site should surface what I learn, not just a CV
-- [[should-i-start-a-newsletter]] — if I start one, the site is where it lives
+- [[knowledge-management]] — il sito dovrebbe far emergere ciò che imparo, non essere solo un CV
+- [[should-i-start-a-newsletter]] — se la apro, il sito è dove vive
 
-# Todos
+# Todo
 
-- [ ] Pick a stack 📅 2026-01-20
-- [ ] Draft the about page 📅 2026-02-01
-- [ ] Decide whether to include a /notes section fed by this vault 📅 2026-02-10
+- [ ] Scegliere lo stack 📅 2026-01-20
+- [ ] Bozzare la pagina about 📅 2026-02-01
+- [ ] Decidere se includere una sezione /note alimentata da questo vault 📅 2026-02-10
 
-# Decisions log
+# Log decisioni
 
-- 2026-01-12: Kicked off. Leaning toward a static site so it's cheap to keep alive.
+- 2026-01-12: kickoff. Propendo per un sito statico, così costa poco tenerlo in vita.
 
 # Sources
 
-- [[Journal/2026-01-15]] — tied the site to the knowledge-management theme
+- [[Journal/2026-01-15]] — ho legato il sito al tema knowledge-management

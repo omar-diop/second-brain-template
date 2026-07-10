@@ -1,93 +1,94 @@
-# Second Brain — template
+# Second Brain, template
 
-A personal "wiki LLM" second brain (Karpathy-style) in Obsidian markdown. Plain text so an LLM can read it, reason over it, and **actively maintain** it. You capture raw sources; an agent (Claude Code) distills them into connected wiki pages that compound over time.
+Un second brain personale in stile "wiki LLM" (à la Karpathy) in markdown Obsidian. Testo semplice, così un LLM può leggerlo, ragionarci sopra e **mantenerlo attivamente**. Tu catturi le fonti grezze; un agente (Claude Code) le distilla in pagine wiki collegate che compongono nel tempo.
 
-This is a **starter template**. It ships with:
-- the 3-layer schema ([CLAUDE.md](CLAUDE.md)),
-- three Claude Code skills — `/ingest`, `/query`, `/lint` (in `.claude/skills/`),
-- Obsidian templates (`Templates/`),
-- a small set of **fictional example pages** so you can see how a populated vault looks.
+Questo è un **template di partenza**. Include:
+- lo schema a 3 livelli ([CLAUDE.md](CLAUDE.md)),
+- tre skill di Claude Code: `/ingest`, `/query`, `/lint` (in `.claude/skills/`),
+- i template Obsidian (`Templates/`),
+- un piccolo set di **pagine d'esempio fittizie** per vedere com'è fatto un vault popolato.
 
-> Don't copy the structure blindly — model it on your own constraints. The example pages exist to show the mechanics; delete them and make it yours.
+> Non copiare la struttura alla cieca: modellala sui tuoi vincoli. Le pagine d'esempio servono a mostrare il meccanismo; cancellale e rendilo tuo.
 
-## Architecture — 3 layers
+## Architettura, 3 livelli
 
-| Layer | Folders | Owner |
+| Livello | Cartelle | Proprietario |
 |---|---|---|
-| **Raw sources** (immutable) | `Inbox/`, `Journal/` | You write, Claude reads |
-| **Wiki** (LLM-maintained) | `People/`, `Companies/`, `Library/`, `Topics/`, `Explorations/`, `Projects/`, `Content Ideas/`, `Profile.md` | Claude creates and updates |
-| **Schema** | `CLAUDE.md`, `index.md`, `log.md` | Co-evolved |
+| **Fonti grezze** (immutabili) | `Inbox/`, `Journal/` | Le scrivi tu, Claude le legge |
+| **Wiki** (mantenuto dall'LLM) | `People/`, `Companies/`, `Library/`, `Topics/`, `Explorations/`, `Projects/`, `Content Ideas/`, `Profile.md` | Claude crea e aggiorna |
+| **Schema** | `CLAUDE.md`, `index.md`, `log.md` | Co-evoluto |
 
-You dump raw sources. Claude reads them and synthesizes the wiki.
+Tu butti dentro le fonti grezze. Claude le legge e sintetizza il wiki.
 
-## Quick start
+## Guida di setup
 
-1. **Clone or fork** this repo and open the folder in your editor.
-2. **Fill in `Profile.md`** — it's a blank template. Claude reads it first on every query, so this is what makes answers feel like *yours*.
-3. **Open the same folder as an Obsidian vault** and install the community plugins:
-   - **Templater** → Settings → Templater → Template folder location = `Templates`
+1. **Clona o forka** questo repo e apri la cartella nel tuo editor.
+2. **Installa [Claude Code](https://claude.com/claude-code)** e aprilo dentro questa cartella (`claude` da terminale, o l'estensione IDE). Le tre skill vivono in `.claude/skills/` e sono già pronte: le richiami con `/ingest`, `/query`, `/lint`.
+3. **Compila `Profile.md`**: è un template vuoto. Claude lo legge per primo a ogni query, quindi è ciò che rende le risposte *tue*.
+4. **Apri la stessa cartella come vault Obsidian** e installa i plugin community:
+   - **Templater** → Impostazioni → Templater → "Template folder location" = `Templates`
    - **Dataview**
    - **Tasks**
-4. Configure the core **Daily Notes** plugin:
+5. Configura il plugin core **Daily Notes**:
    - New file location: `Journal`
    - Date format: `YYYY-MM-DD`
    - Template file location: `Templates/daily`
-5. (Recommended) Install the **Obsidian Web Clipper** browser extension:
+6. (Consigliato) Installa l'estensione browser **Obsidian Web Clipper**:
    - Save location: `Inbox`
-   - Template based on `Templates/article.md`
-6. **Open Claude Code in this folder** and try `/ingest` on `Inbox/example-clipped-article.md` to see the workflow end to end.
-7. **Delete the example pages** (everything marked as fictional) and start feeding your own.
+   - Template basato su `Templates/article.md`
+7. **Prova il giro completo**: lancia `/ingest` su `Inbox/example-clipped-article.md` per vedere come una fonte grezza diventa pagine collegate.
+8. **Cancella le pagine d'esempio** (tutto ciò marcato come fittizio) e comincia ad alimentare il tuo.
 
-## Daily workflow
+## Workflow quotidiano
 
-### 1. Capture (you, low friction)
+### 1. Cattura (tu, a basso attrito)
 
-- Daily thoughts, calls, meetings → `Journal/YYYY-MM-DD.md` (open the daily note in Obsidian)
-- Articles clipped from the web → `Inbox/` (via Web Clipper)
-- Random link, idea, voice-note transcript → `Inbox/`
+- Pensieri, call, incontri → `Journal/YYYY-MM-DD.md` (apri la nota del giorno in Obsidian)
+- Articoli clippati dal web → `Inbox/` (via Web Clipper)
+- Link, idea, trascrizione di una nota vocale → `Inbox/`
 
-### 2. Process (Claude maintains the wiki)
+### 2. Processa (Claude mantiene il wiki)
 
-Run `/ingest` in Claude Code. Claude reads a source from `Inbox/` (or an un-ingested `Journal/` note), discusses takeaways with you, writes any `Library/` summary, updates related entity pages, updates `index.md`, marks the source processed, and appends to `log.md`.
+Lancia `/ingest` in Claude Code. Claude legge una fonte da `Inbox/` (o una nota `Journal/` non ancora ingerita), ne discute con te i punti chiave, scrive l'eventuale scheda `Library/`, aggiorna le pagine entità collegate, aggiorna `index.md`, marca la fonte come processata e aggiunge una riga a `log.md`.
 
-### 3. Query (Claude reads the wiki)
+### 3. Interroga (Claude legge il wiki)
 
-Run `/query <question>` in Claude Code. Claude reads `index.md` first, drills into relevant pages, answers with `[[citations]]`, and optionally files the answer back as a new page so insights compound.
+Lancia `/query <domanda>` in Claude Code. Claude legge prima `index.md`, entra nelle pagine rilevanti, risponde con `[[citazioni]]` e propone di archiviare la risposta come nuova pagina, così la conoscenza compone.
 
-Example questions:
-- *"Who do I know working on knowledge tools?"*
-- *"What have I read on systems thinking? Synthesise."*
-- *"Before I decide on the newsletter, what relevant notes and people do I already have?"*
+Domande d'esempio:
+- *"Chi conosco che lavora su strumenti per la conoscenza?"*
+- *"Cosa ho letto sul systems thinking? Sintetizza."*
+- *"Prima di decidere sulla newsletter, quali note e persone rilevanti ho già?"*
 
-### 4. Maintain (periodic)
+### 4. Manutieni (periodico)
 
-Run `/lint` in Claude Code to health-check the wiki: orphans, contradictions, stale claims, missing pages, data gaps. Read-only — reports a checklist.
+Lancia `/lint` in Claude Code per un health-check del wiki: pagine orfane, contraddizioni, affermazioni superate, pagine mancanti, buchi di dati. È in sola lettura, restituisce una checklist.
 
-## Skills
+## Skill
 
-Located in `.claude/skills/`, committed with the vault:
+In `.claude/skills/`, versionate col vault:
 
-- `/ingest` — process a raw source from `Inbox/` (or a `Journal/` note) into the wiki
-- `/query <question>` — answer against the wiki with citations
-- `/lint` — health-check the wiki
+- `/ingest` — processa una fonte grezza da `Inbox/` (o una nota `Journal/`) nel wiki
+- `/query <domanda>` — risponde interrogando il wiki, con citazioni
+- `/lint` — health-check del wiki
 
-## Make it yours
+## Rendilo tuo
 
-- Rewrite `Profile.md` for who you are.
-- Delete the fictional examples (People, Companies, Library, Topics, Explorations, Projects, Content Ideas, the example Journal and Inbox files), then reset `index.md` and `log.md`.
-- Add or remove Layer-2 folders to fit your work — the schema is a starting point, not a cage. Update `CLAUDE.md` when you change the structure; it's co-evolved with you.
+- Riscrivi `Profile.md` per chi sei tu.
+- Cancella gli esempi fittizi (People, Companies, Library, Topics, Explorations, Projects, Content Ideas, il Journal e i file Inbox d'esempio), poi resetta `index.md` e `log.md`.
+- Aggiungi o togli cartelle di Livello 2 in base al tuo lavoro: lo schema è un punto di partenza, non una gabbia. Aggiorna `CLAUDE.md` quando cambi la struttura, è co-evoluto con te.
 
-## Conventions (short)
+## Convenzioni (in breve)
 
-Full version in [CLAUDE.md](CLAUDE.md).
+Versione completa in [CLAUDE.md](CLAUDE.md).
 
-- `First Last.md` for people, `Company Name.md` for orgs, `kebab-case.md` for topics
-- ISO dates `YYYY-MM-DD`
-- YAML frontmatter on every wiki page (`type`, `tags` minimum)
-- `[[links]]` over tags whenever the target is an entity
-- Every wiki page ends with a `# Sources` section citing raw sources
-- Structure in English, content in whatever language is natural to you
+- `Nome Cognome.md` per le persone, `Nome Azienda.md` per le organizzazioni, `kebab-case.md` per i topic
+- Date ISO `YYYY-MM-DD`
+- Frontmatter YAML su ogni pagina wiki (`type`, `tags` minimo)
+- `[[link]]` invece dei tag quando il target è un'entità
+- Ogni pagina wiki finisce con una sezione `# Sources` che cita le fonti grezze
+- Struttura in inglese, contenuto nella lingua che ti è più naturale
 
 ---
 
-*This template accompanies an article on building an AI-maintained second brain. The concept is based on [Andrej Karpathy's wiki-LLM approach](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).*
+*Questo template accompagna un articolo sul costruire un second brain mantenuto dall'AI. Il concetto si basa sull'[approccio wiki-LLM di Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).*

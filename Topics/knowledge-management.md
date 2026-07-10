@@ -7,31 +7,31 @@ tags: [knowledge-management, second-brain]
 
 # knowledge-management
 
-How I capture, connect, and reuse what I learn. The evergreen home for the "second brain" theme — everything about note-taking, linking, and letting knowledge compound lands here.
+Come catturo, collego e riuso ciò che imparo. La casa evergreen del tema "second brain": tutto ciò che riguarda prendere appunti, collegarli e far comporre la conoscenza finisce qui.
 
-## Operating model
+## Modello operativo
 
-Treat knowledge like a codebase an LLM maintains ([[The wiki-LLM approach - Andrej Karpathy]]): raw sources in, connected pages out. The value is in the links, not the pile of notes ([[Thinking in Systems - Donella Meadows]]).
+Trattare la conoscenza come un codebase mantenuto da un LLM ([[The wiki-LLM approach - Andrej Karpathy]]): fonti grezze in ingresso, pagine collegate in uscita. Il valore è nei link, non nel mucchio di note ([[Thinking in Systems - Donella Meadows]]).
 
-## Related notes
+## Note correlate
 
-- [[The wiki-LLM approach - Andrej Karpathy]] — the operating model
-- [[Thinking in Systems - Donella Meadows]] — why links > nodes
-- [[Maya Chen]] / [[Northwind Labs]] — building tools in this space
-- [[compounding-knowledge]] — content idea from this theme
-- [[should-i-start-a-newsletter]] — a newsletter as an output of the system
+- [[The wiki-LLM approach - Andrej Karpathy]] — il modello operativo
+- [[Thinking in Systems - Donella Meadows]] — perché i link contano più dei nodi
+- [[Trinity]] / [[MetaCortex]] — costruiscono strumenti in questo ambito
+- [[compounding-knowledge]] — idea di contenuto nata da questo tema
+- [[should-i-start-a-newsletter]] — una newsletter come output del sistema
 
-## Open questions
+## Domande aperte
 
-- Where does personal knowledge end and shareable content begin?
-- When does index-first browsing stop scaling, and what replaces it?
+- Dove finisce la conoscenza personale e dove comincia il contenuto condivisibile?
+- Quando la navigazione index-first smette di scalare, e cosa la sostituisce?
 
-## Related topics
+## Topic correlati
 
-- (add as the vault grows)
+- (aggiungere man mano che il vault cresce)
 
 # Sources
 
-- [[Journal/2026-01-15]] — DevConf + Karpathy read consolidated this theme
+- [[Journal/2026-01-15]] — Zion Conf + lettura di Karpathy hanno consolidato questo tema
 - [[The wiki-LLM approach - Andrej Karpathy]]
 - [[Thinking in Systems - Donella Meadows]]

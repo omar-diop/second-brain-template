@@ -38,6 +38,6 @@ path includes Projects
 
 Manual list — kept in sync on every `/ingest` (fallback if Dataview is off).
 
-<!-- Fictional example page. Delete it once you start adding your own. -->
+<!-- Pagina d'esempio (fittizia). Cancellala quando cominci ad aggiungere le tue. -->
 
-- [[personal-site-redesign]] — Outcome: ship a new personal site by end of quarter. Pulls from [[knowledge-management]].
+- [[personal-site-redesign]] — Esito: mettere online un nuovo sito personale entro fine trimestre. Attinge da [[knowledge-management]].

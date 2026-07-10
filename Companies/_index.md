@@ -7,7 +7,7 @@ folder: Companies
 
 Organisations, companies, and institutions as linkable entities.
 
-**File naming**: `Company Name.md` (so `[[Northwind Labs]]`, `[[Acme]]` work naturally).
+**File naming**: `Company Name.md` (so `[[MetaCortex]]`, `[[Acme]]` work naturally).
 
 Use `Templates/company.md` for new entries.
 
@@ -32,6 +32,6 @@ SORT file.name ASC
 
 Manual list — kept in sync on every `/ingest` (fallback if Dataview is off).
 
-<!-- Fictional example page. Delete it once you start adding your own. -->
+<!-- Pagina d'esempio (fittizia). Cancellala quando cominci ad aggiungere le tue. -->
 
-- [[Northwind Labs]] — Small product studio where [[Maya Chen]] works. Building knowledge tools.
+- [[MetaCortex]] — Piccolo studio dove lavora [[Trinity]]. Costruisce strumenti per la conoscenza.

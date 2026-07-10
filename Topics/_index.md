@@ -23,6 +23,6 @@ A good Topic has:
 
 Manual list — kept in sync on every `/ingest` (fallback if Dataview is off).
 
-<!-- Fictional example page. Delete it once you start adding your own. -->
+<!-- Pagina d'esempio (fittizia). Cancellala quando cominci ad aggiungere le tue. -->
 
-- [[knowledge-management]] — How I capture, connect, and reuse what I learn. The evergreen home for the "second brain" theme.
+- [[knowledge-management]] — Come catturo, collego e riuso ciò che imparo. La casa evergreen del tema "second brain".

@@ -1,40 +1,40 @@
 ---
 type: profile
-name: <your name>
+name: <il tuo nome>
 updated: 2026-01-15
 tags: [profile]
 ---
 
 # Profile
 
-> This is **your** page. Claude reads it first on every `/query` so every answer starts from who you are and what you're optimising for. Fill it in before you start feeding the vault — a good Profile is what makes the system's answers feel like *yours* and not generic.
+> Questa è la **tua** pagina. Claude la legge per prima a ogni `/query`, così ogni risposta parte da chi sei e da cosa stai ottimizzando. Compilala prima di iniziare ad alimentare il vault: un buon Profile è ciò che rende le risposte del sistema *tue* e non generiche.
 >
-> Delete these instructions once you've written your own.
+> Cancella queste istruzioni una volta scritta la tua versione.
 
-## Who I am
+## Chi sono
 
-<!-- One paragraph: your role(s), what you do, the hats you wear. -->
+<!-- Un paragrafo: i tuoi ruoli, cosa fai, i cappelli che indossi. -->
 
-## What I'm optimising for right now
+## Cosa sto ottimizzando adesso
 
-<!-- Your current goals and priorities. What does a good year look like? -->
+<!-- Obiettivi e priorità attuali. Com'è fatto un buon anno? -->
 
-## How I work
+## Come lavoro
 
-<!-- Tools, rhythms, how you capture and process. What Claude should know to be useful. -->
+<!-- Strumenti, ritmi, come catturi e processi. Cosa deve sapere Claude per esserti utile. -->
 
-## What I care about / recurring themes
+## A cosa tengo / temi ricorrenti
 
-<!-- The topics you keep coming back to — these become your Topics/ pages over time. -->
+<!-- I temi su cui torni sempre: col tempo diventano le tue pagine in Topics/. -->
 
-## People & network
+## Persone e rete
 
-<!-- How you think about your network, who matters, what kinds of intros you want to surface. -->
+<!-- Come pensi alla tua rete, chi conta, che tipo di intro vuoi far emergere. -->
 
-## Constraints & discretion
+## Vincoli e discrezione
 
-<!-- What must stay private, what can be shared, any topics Claude should handle carefully. -->
+<!-- Cosa deve restare privato, cosa può essere condiviso, temi che Claude deve trattare con cautela. -->
 
 # Sources
 
-<!-- Raw sources this profile derives from, if any. -->
+<!-- Fonti grezze da cui deriva questo profilo, se presenti. -->

@@ -35,6 +35,6 @@ SORT file.mtime DESC
 
 Manual list — kept in sync on every `/ingest` (fallback if Dataview is off).
 
-<!-- Fictional example page. Delete it once you start adding your own. -->
+<!-- Pagina d'esempio (fittizia). Cancellala quando cominci ad aggiungere le tue. -->
 
-- [[should-i-start-a-newsletter]] — Guiding question: is a newsletter worth it for me right now? References [[knowledge-management]] and [[Jordan Blake]].
+- [[should-i-start-a-newsletter]] — Domanda guida: aprire una newsletter vale la pena adesso? Rimanda a [[knowledge-management]] e [[Morpheus]].

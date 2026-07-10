@@ -52,10 +52,10 @@ SORT clipped DESC
 
 Manual list — kept in sync on every `/ingest` (fallback if Dataview is off).
 
-<!-- Fictional example pages. Delete them once you start adding your own. -->
+<!-- Pagine d'esempio (fittizie). Cancellale quando cominci ad aggiungere le tue. -->
 
 ### Books
-- [[Thinking in Systems - Donella Meadows]] — How systems behave; stocks, flows, feedback loops. Feeds [[knowledge-management]].
+- [[Thinking in Systems - Donella Meadows]] — Come si comportano i sistemi; stock, flussi, cicli di feedback. Alimenta [[knowledge-management]].
 
 ### Articles
-- [[The wiki-LLM approach - Andrej Karpathy]] — Treat your knowledge like a codebase an LLM maintains. The idea this whole vault is built on.
+- [[The wiki-LLM approach - Andrej Karpathy]] — Tratta la conoscenza come un codebase mantenuto da un LLM. L'idea su cui è costruito tutto questo vault.

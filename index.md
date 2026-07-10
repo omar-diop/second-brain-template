@@ -6,43 +6,43 @@ Format: `- [[Page]] — one-line summary | metadata`
 
 When answering queries, Claude reads this file **first** to find candidate pages, then drills into them.
 
-> The entries below are the fictional example pages that ship with this template. As you feed your own vault, `/ingest` will add and update entries here. Delete the examples once you're rolling.
+> Le voci qui sotto sono le pagine d'esempio (fittizie) incluse in questo template. Man mano che alimenti il tuo vault, `/ingest` aggiunge e aggiorna le voci qui. Cancella gli esempi una volta partito.
 
 ---
 
 ## Profile
 
-- [[Profile]] — Your own page (currently a blank template). Fill it in first — Claude reads it before every query.
+- [[Profile]] — La tua pagina (ora un template vuoto). Compilala per prima: Claude la legge prima di ogni query.
 
 ## People
 
-- [[Maya Chen]] — Product designer & founder @ [[Northwind Labs]]. Met at [[DevConf 2026]]. Into [[knowledge-management]] | person, met 2026
-- [[Jordan Blake]] — Engineering author I follow; systems thinking, dev tooling, writing. Model for [[should-i-start-a-newsletter]] | public-figure
+- [[Trinity]] — Product designer e founder @ [[MetaCortex]]. Conosciuta a [[Zion Conf 2026]]. Interessata a [[knowledge-management]] | person, met 2026
+- [[Morpheus]] — Autore tech che seguo; systems thinking, dev tooling, scrittura. Modello per [[should-i-start-a-newsletter]] | public-figure
 
 ## Companies
 
-- [[Northwind Labs]] — Small product studio building knowledge tools; experimenting with LLM-maintained docs. Contact: [[Maya Chen]] | startup
+- [[MetaCortex]] — Piccolo studio che costruisce strumenti per la conoscenza; sperimenta doc mantenuti da LLM. Contatto: [[Trinity]] | startup
 
 ## Library — Books
 
-- [[Thinking in Systems - Donella Meadows]] — Stocks, flows, feedback loops. Links > nodes. Feeds [[knowledge-management]] | reading
+- [[Thinking in Systems - Donella Meadows]] — Stock, flussi, cicli di feedback. I link contano più dei nodi. Alimenta [[knowledge-management]] | reading
 
 ## Library — Articles
 
-- [[The wiki-LLM approach - Andrej Karpathy]] — "The wiki is the codebase." The model this vault is built on | done, 5★
+- [[The wiki-LLM approach - Andrej Karpathy]] — "The wiki is the codebase." Il modello su cui è costruito questo vault | done, 5★
 
 ## Topics
 
-- [[knowledge-management]] — How I capture, connect, and reuse what I learn. The second-brain theme hub | active
+- [[knowledge-management]] — Come catturo, collego e riuso ciò che imparo. L'hub del tema second-brain | active
 
 ## Explorations
 
-- [[should-i-start-a-newsletter]] — Guiding question: is a newsletter worth it for me right now, and on what theme? | active
+- [[should-i-start-a-newsletter]] — Domanda guida: aprire una newsletter vale la pena adesso, e su che tema? | active
 
 ## Projects
 
-- [[personal-site-redesign]] — Ship a redesigned personal site by end of quarter | active, deadline 2026-03-31
+- [[personal-site-redesign]] — Mettere online un sito personale rifatto entro fine trimestre | active, deadline 2026-03-31
 
 ## Content Ideas
 
-- [[compounding-knowledge]] — "Knowledge compounds when you connect it, not when you store it." Rule-of-3 trigger | idea, trigger_count 3
+- [[compounding-knowledge]] — "La conoscenza compone quando la colleghi, non quando la archivi." Trigger Rule of 3 | idea, trigger_count 3

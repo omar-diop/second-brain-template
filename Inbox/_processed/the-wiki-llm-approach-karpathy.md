@@ -8,12 +8,12 @@ type: clip
 
 # The wiki-LLM approach
 
-> Fictional example capture. This is what a clipped article looks like before `/ingest` turns it into a `Library/` page. It has already been processed (that's why it lives in `_processed/`), producing [[The wiki-LLM approach - Andrej Karpathy]].
+> Cattura di esempio (fittizia). È com'è fatto un articolo clippato prima che `/ingest` lo trasformi in una pagina `Library/`. Questo è già stato processato (per questo vive in `_processed/`), producendo [[The wiki-LLM approach - Andrej Karpathy]].
 
 Obsidian is the IDE, the LLM is the programmer, the wiki is the codebase.
 
-The idea: keep your knowledge as plain markdown files and point an LLM agent at the folder. The agent reads the files, writes new ones, links them together, and keeps the whole thing organised. You capture raw material; the agent does the distillation and the cross-referencing.
+L'idea: tieni la conoscenza come file markdown e punta un agente LLM alla cartella. L'agente legge i file, ne scrive di nuovi, li collega e tiene tutto in ordine. Tu catturi il materiale grezzo; l'agente fa la distillazione e i rimandi incrociati.
 
-The wiki grows to hundreds of thousands of words, most of it written and maintained by the agent. You rarely touch files by hand — you steer, review, and feed it new sources.
+Il wiki cresce fino a centinaia di migliaia di parole, quasi tutte scritte e mantenute dall'agente. A mano ci metti le mani di rado: guidi, revisioni, e gli dai fonti nuove.
 
-The payoff isn't storage. It's that connections you'd never draw by hand emerge automatically, and the knowledge compounds: every new source is compared against everything already there.
+Il payoff non è l'archiviazione. È che emergono da sole connessioni che non avresti mai disegnato a mano, e la conoscenza compone: ogni fonte nuova viene confrontata con tutto ciò che c'è già.

@@ -6,45 +6,45 @@ started: 2026-01-15
 tags: [writing, newsletter]
 ---
 
-# Guiding question
+# Domanda guida
 
-Is starting a newsletter worth it for me right now, and if so, on what theme?
+Aprire una newsletter vale la pena per me adesso, e se sì, su che tema?
 
-# Why this matters
+# Perché conta
 
-I keep learning things worth sharing, and a newsletter would turn private notes into a compounding public asset. But it's a real time commitment — I want to decide deliberately, not by vibes.
+Continuo a imparare cose che varrebbe la pena condividere, e una newsletter trasformerebbe le note private in un asset pubblico che compone. Ma è un impegno di tempo reale: voglio decidere in modo deliberato, non a sensazione.
 
-# Open questions
+# Domande aperte
 
-- [ ] What theme could I sustain for a year without running dry?
-- [ ] Newsletter as a funnel, or as an end in itself?
-- [ ] How much can I draw from what's already in this vault?
+- [ ] Su che tema riuscirei a scrivere per un anno senza restare a secco?
+- [ ] Newsletter come funnel o come fine in sé?
+- [ ] Quanto posso pescare da ciò che è già in questo vault?
 
-# Hypotheses
+# Ipotesi
 
-- The [[knowledge-management]] theme has enough depth for me to write regularly.
-- If the vault surfaces post ideas (see [[compounding-knowledge]]), the blank-page problem mostly goes away.
+- Il tema [[knowledge-management]] ha abbastanza profondità per scrivere con regolarità.
+- Se il vault fa emergere idee di post (vedi [[compounding-knowledge]]), il problema del foglio bianco quasi sparisce.
 
-# Sources & references
+# Fonti e riferimenti
 
-- [[Jordan Blake]] — a newsletter I'd use as a model
+- [[Morpheus]] — una newsletter che userei come modello
 - [[knowledge-management]]
 
-# Findings & notes
+# Findings e note
 
 ## 2026-01-15
 
-First pass after DevConf. Talking to [[Maya Chen]] made me realise I already generate enough raw material; the question is format and cadence, not whether I have anything to say.
+Prima passata dopo Zion Conf. Parlare con [[Trinity]] mi ha fatto capire che genero già abbastanza materiale grezzo; la domanda è formato e cadenza, non se ho qualcosa da dire.
 
-# Next steps
+# Prossimi passi
 
-- [ ] Draft three sample issues from existing notes
-- [ ] Decide cadence (weekly vs monthly)
+- [ ] Bozzare tre numeri di prova a partire dalle note esistenti
+- [ ] Decidere la cadenza (settimanale vs mensile)
 
-# Conclusion
+# Conclusione
 
-<!-- Fill in when status = concluded. -->
+<!-- Da compilare quando status = concluded. -->
 
 # Sources
 
-- [[Journal/2026-01-15]] — where this question first got written down
+- [[Journal/2026-01-15]] — dove questa domanda è stata messa nero su bianco la prima volta

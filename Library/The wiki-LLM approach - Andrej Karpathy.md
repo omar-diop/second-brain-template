@@ -9,26 +9,26 @@ rating: 5
 tags: [knowledge-management, llm]
 ---
 
-# Why I saved this
+# Perché l'ho salvato
 
-The idea this whole vault is built on: treat your knowledge like a codebase that an LLM maintains.
+È l'idea su cui è costruito tutto questo vault: trattare la conoscenza come un codebase mantenuto da un LLM.
 
-# Key highlights
+# Highlight chiave
 
 - *"Obsidian is the IDE, the LLM is the programmer, the wiki is the codebase."*
-- Point the agent at a folder of plain markdown; it reads, writes, links, and keeps it organised.
-- Most of the wiki ends up written and maintained by the agent; you rarely touch files by hand.
+- Punti l'agente a una cartella di markdown: legge, scrive, collega e tiene tutto in ordine.
+- Gran parte del wiki finisce scritta e mantenuta dall'agente; a mano ci si mette raramente.
 
-# My takeaways
+# I miei takeaway
 
-Knowledge as a codebase changes the unit of work: you capture raw sources, the agent distills and connects them. The value isn't storing more, it's the links that emerge. Directly feeds [[knowledge-management]] and the idea in [[compounding-knowledge]].
+La conoscenza-come-codebase cambia l'unità di lavoro: tu catturi le fonti grezze, l'agente distilla e collega. Il valore non è archiviare di più, sono i link che emergono. Alimenta direttamente [[knowledge-management]] e l'idea in [[compounding-knowledge]].
 
-# Connections
+# Connessioni
 
-- [[knowledge-management]] — the operating model
-- [[compounding-knowledge]] — the content idea it triggered
+- [[knowledge-management]] — il modello operativo
+- [[compounding-knowledge]] — l'idea di contenuto che ha fatto scattare
 
 # Sources
 
-- [[Inbox/_processed/the-wiki-llm-approach-karpathy]] — original capture
-- [[Journal/2026-01-15]] — read it this day
+- [[Inbox/_processed/the-wiki-llm-approach-karpathy]] — cattura originale
+- [[Journal/2026-01-15]] — letto in questa giornata

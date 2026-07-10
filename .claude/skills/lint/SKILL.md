@@ -49,18 +49,18 @@ Produce a Markdown checklist grouped by category. For each finding, suggest a **
 ## Lint report — [YYYY-MM-DD]
 
 ### Orphan pages (3)
-- [ ] `Companies/Northwind Labs.md` — no inbound links. Action: link from [[Maya Chen]] (already done?), check.
+- [ ] `Companies/MetaCortex.md` — no inbound links. Action: link from [[Trinity]] (already done?), check.
 - [ ] ...
 
 ### Missing concept / entity pages (2)
-- [ ] `[[O'Reilly]]` mentioned in [[Maya Chen]] and [[Jordan Blake]] but no page exists. Action: create `Companies/O'Reilly.md`.
-- [ ] `[[DevConf 2026]]` mentioned in 2 people but no event page. Action: create `Topics/devconf-2026.md` (or similar).
+- [ ] `[[O'Reilly]]` mentioned in [[Trinity]] and [[Morpheus]] but no page exists. Action: create `Companies/O'Reilly.md`.
+- [ ] `[[Zion Conf 2026]]` mentioned in 2 people but no event page. Action: create `Topics/zion-conf-2026.md` (or similar).
 
 ### Stale claims (1)
-- [ ] [[Maya Chen]] `last_contact: 2024-06-01` — over 2 years ago. Action: confirm status or mark `dormant`.
+- [ ] [[Trinity]] `last_contact: 2024-06-01` — over 2 years ago. Action: confirm status or mark `dormant`.
 
 ### Data gaps (4)
-- [ ] [[Jordan Blake]] LinkedIn empty. Suggest: search "Jordan Blake Northwind Labs LinkedIn"
+- [ ] [[Morpheus]] LinkedIn empty. Suggest: search "Morpheus MetaCortex LinkedIn"
 - [ ] ...
 ```
 

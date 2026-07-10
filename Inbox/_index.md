@@ -11,4 +11,4 @@ Raw, unprocessed captures. Everything new can land here.
 
 The Inbox should never grow unbounded — if it does, the distillation step is falling behind.
 
-> The `example-clipped-article.md` here is a fictional unprocessed capture — run `/ingest` on it to see the workflow, or delete it. `_processed/` already holds one example source that was ingested to create the example wiki pages.
+> `example-clipped-article.md` qui è una cattura fittizia non processata: lancia `/ingest` per vedere il workflow, oppure cancellala. In `_processed/` c'è già una fonte d'esempio, ingerita per creare le pagine wiki d'esempio.

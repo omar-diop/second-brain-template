@@ -10,29 +10,29 @@ source:
 tags: [systems-thinking]
 ---
 
-# Why I'm reading this
+# Perché lo sto leggendo
 
-To get a vocabulary for how systems behave — stocks, flows, feedback loops — and apply it to how a knowledge system compounds over time.
+Per avere un vocabolario su come si comportano i sistemi (stock, flussi, cicli di feedback) e applicarlo a come un sistema di conoscenza compone nel tempo.
 
-# Key highlights
+# Highlight chiave
 
-- A system is more than the sum of its parts: it's the parts *and* their interconnections.
-- Reinforcing feedback loops are the source of compounding (and of runaway growth).
-- Leverage points: small shifts in structure can produce large changes in behaviour.
+- Un sistema è più della somma delle sue parti: sono le parti *e* le loro interconnessioni.
+- I cicli di feedback che si rinforzano sono la sorgente del compounding (e della crescita fuori controllo).
+- Punti di leva: piccoli spostamenti nella struttura producono grandi cambiamenti nel comportamento.
 
-# My takeaways
+# I miei takeaway
 
-The interconnections matter more than the nodes. A pile of notes is not a system; the links between them are what make knowledge compound. This is the mental model behind [[knowledge-management]].
+Le interconnessioni contano più dei nodi. Un mucchio di note non è un sistema; sono i link tra esse a far comporre la conoscenza. È il modello mentale dietro [[knowledge-management]].
 
-# Connections
+# Connessioni
 
-- [[knowledge-management]] — links > nodes
-- [[compounding-knowledge]] — the content idea this fed
+- [[knowledge-management]] — i link contano più dei nodi
+- [[compounding-knowledge]] — l'idea di contenuto che ne è nata
 
-# Open questions raised
+# Domande aperte sollevate
 
-- Where are the leverage points in my own knowledge system?
+- Dove sono i punti di leva nel mio sistema di conoscenza?
 
 # Sources
 
-- [[Journal/2026-01-15]] — reading notes captured this day
+- [[Journal/2026-01-15]] — appunti di lettura presi in questa giornata

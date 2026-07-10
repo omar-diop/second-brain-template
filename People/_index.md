@@ -41,10 +41,10 @@ LIST FROM "People" AND #fintech
 
 Manual list — kept in sync on every `/ingest` (fallback if Dataview is off).
 
-<!-- Fictional example pages. Delete them once you start adding your own. -->
+<!-- Pagine d'esempio (fittizie). Cancellale quando cominci ad aggiungere le tue. -->
 
 ### Person
-- [[Maya Chen]] — Product designer & founder @ [[Northwind Labs]]. Met at [[DevConf 2026]]. Interested in [[knowledge-management]].
+- [[Trinity]] — Product designer e founder @ [[MetaCortex]]. Conosciuta a [[Zion Conf 2026]]. Interessata a [[knowledge-management]].
 
 ### Public figure
-- [[Jordan Blake]] — Engineering author I follow; writes about systems thinking and dev tooling.
+- [[Morpheus]] — Autore tech che seguo; scrive di systems thinking e dev tooling.

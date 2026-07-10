@@ -91,4 +91,4 @@ Versione completa in [CLAUDE.md](CLAUDE.md).
 
 ---
 
-*Questo template accompagna un articolo sul costruire un second brain mantenuto dall'AI. Il concetto si basa sull'[approccio wiki-LLM di Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).*
+*Questo template accompagna l'articolo [Come uso l'AI come second brain](https://builderslog.substack.com/p/come-uso-lai-come-second-brain). Il concetto si basa sull'[approccio wiki-LLM di Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).*
